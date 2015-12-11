@@ -1,0 +1,88 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - DACircularProgress (2.3.1)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - Mantle (2.0.4):
+    - Mantle/extobjc (= 2.0.4)
+  - Mantle/extobjc (2.0.4)
+  - MBProgressHUD (0.9.1)
+  - MJExtension (2.5.7)
+  - MJPhotoBrowser (1.0.2):
+    - SDWebImage
+    - SVProgressHUD
+    - YLGIFImage
+  - MJRefresh (2.4.7)
+  - MLPhotoBrowser (0.5.0):
+    - DACircularProgress
+    - SDWebImage (~> 3.7)
+  - RongCloudIMKit (2.3.2)
+  - SDCycleScrollView (1.3)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SVProgressHUD (1.1.3)
+  - TAlertView (0.2.0)
+  - XHImageViewer (0.1.2)
+  - XLForm (3.0.2)
+  - YLGIFImage (0.11)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - FMDB (~> 2.5)
+  - Mantle (~> 2.0.4)
+  - MBProgressHUD (~> 0.9.1)
+  - MJExtension (~> 2.5.7)
+  - MJPhotoBrowser (~> 1.0.2)
+  - MJRefresh (~> 2.4.7)
+  - MLPhotoBrowser (~> 0.5.0)
+  - RongCloudIMKit (~> 2.3.0)
+  - SDCycleScrollView (~> 1.3)
+  - SDWebImage (~> 3.7.3)
+  - TAlertView (~> 0.2.0)
+  - XHImageViewer
+  - XLForm (~> 3.0.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  Mantle: 6bee68168423948be0c0c5924832bf3af188e099
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJExtension: 2650b64a34ace8d2aa9410d1d17244917032f37a
+  MJPhotoBrowser: f55e8490231f44a78ca6455105a1c798a142c95f
+  MJRefresh: 6eb2f61338f89f64fd628fd43debcf479381ff59
+  MLPhotoBrowser: 1dcf786866b3710f6e4bf740a59cedec1db4c53e
+  RongCloudIMKit: c20f1301326ffd9e0b073325a5ad8799b077dc1a
+  SDCycleScrollView: 90e43636fcc8e6a7f74e8b64d87418a8e96549b4
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  TAlertView: 3787ac0ea7e832d80be129a9be960eb1fc5c73f1
+  XHImageViewer: 7b275d2aa829e56761c30303b9d51cae086a90b9
+  XLForm: 7817ce29f3f259186e837bb7309ac7e5b7e9b883
+  YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
+
+COCOAPODS: 0.38.2

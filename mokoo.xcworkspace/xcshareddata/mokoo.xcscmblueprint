@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B5978431C8BC369D7ACA2220C2A21B0C96BC3A6E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B5978431C8BC369D7ACA2220C2A21B0C96BC3A6E" : 0,
+    "5139210BCC62E31330B57658A91C3B5BCD7A1B0A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4C29A723-E69D-46C1-A7C3-5692F573CC67",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B5978431C8BC369D7ACA2220C2A21B0C96BC3A6E" : "mokoo",
+    "5139210BCC62E31330B57658A91C3B5BCD7A1B0A" : "sharePa"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "mokoo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "mokoo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/shaiba\/ShaibaIOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5139210BCC62E31330B57658A91C3B5BCD7A1B0A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:shaiba\/iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5978431C8BC369D7ACA2220C2A21B0C96BC3A6E"
+    }
+  ]
+}
