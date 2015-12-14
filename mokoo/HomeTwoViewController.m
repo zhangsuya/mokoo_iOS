@@ -747,7 +747,7 @@
 //获得文件路径
 -(NSString *)dataFilePath{
     //检索Documents目录
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask,YES);//备注1
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask,YES);//备注1
     NSString *documentsDirectory = [paths objectAtIndex:0];//备注2
     return [documentsDirectory stringByAppendingPathComponent:[NSString stringWithFormat:@"%@",kFileName]];
 }

@@ -332,6 +332,7 @@
 		04D41F861B86F8A100A51045 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D41F851B86F8A100A51045 /* Images.xcassets */; };
 		04D41F8A1B87155400A51045 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D41F881B87155400A51045 /* CollectionViewCell.m */; };
 		04D41F8B1B87155400A51045 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D41F891B87155400A51045 /* CollectionViewCell.xib */; };
+		04D522E31C1E67F300CF4ABA /* FRGWaterfallCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D522E21C1E67F300CF4ABA /* FRGWaterfallCollectionViewLayout.m */; };
 		04D6B9401B896CA500D1FE32 /* ShowCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D6B93F1B896CA500D1FE32 /* ShowCellModel.m */; };
 		04D6B9431B89706100D1FE32 /* ShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D6B9421B89706100D1FE32 /* ShowCell.m */; };
 		04D6B9491B897D7200D1FE32 /* ShowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D6B9481B897D7200D1FE32 /* ShowTableViewController.m */; };
@@ -978,6 +979,8 @@
 		04D41F871B87155400A51045 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewCell.h; path = mokoo/CollectionViewCell.h; sourceTree = SOURCE_ROOT; };
 		04D41F881B87155400A51045 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewCell.m; path = mokoo/CollectionViewCell.m; sourceTree = SOURCE_ROOT; };
 		04D41F891B87155400A51045 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CollectionViewCell.xib; path = mokoo/CollectionViewCell.xib; sourceTree = SOURCE_ROOT; };
+		04D522E11C1E67F300CF4ABA /* FRGWaterfallCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRGWaterfallCollectionViewLayout.h; sourceTree = "<group>"; };
+		04D522E21C1E67F300CF4ABA /* FRGWaterfallCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRGWaterfallCollectionViewLayout.m; sourceTree = "<group>"; };
 		04D6B93E1B896CA500D1FE32 /* ShowCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowCellModel.h; sourceTree = "<group>"; };
 		04D6B93F1B896CA500D1FE32 /* ShowCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowCellModel.m; sourceTree = "<group>"; };
 		04D6B9411B89706100D1FE32 /* ShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowCell.h; sourceTree = "<group>"; };
@@ -2470,6 +2473,8 @@
 		04D41E361B85B2E900A51045 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				04D522E11C1E67F300CF4ABA /* FRGWaterfallCollectionViewLayout.h */,
+				04D522E21C1E67F300CF4ABA /* FRGWaterfallCollectionViewLayout.m */,
 				04D41E371B85B2E900A51045 /* HomeModel.h */,
 				04D41E381B85B2E900A51045 /* HomeModel.m */,
 				04D41E391B85B2E900A51045 /* ZWCollectionViewFlowLayout.h */,
@@ -3163,6 +3168,7 @@
 				042CC8FB1BE9A498003F76D1 /* UIView+FSExtension.m in Sources */,
 				046C8D101B81CE9000B82FA4 /* WMMenuTableViewCell.m in Sources */,
 				048160381BB0049A0071E4C3 /* ShowPersonalInfoTableViewController.m in Sources */,
+				04D522E31C1E67F300CF4ABA /* FRGWaterfallCollectionViewLayout.m in Sources */,
 				C7DCDA981C1047B20022403F /* UIView+BHBAnimation.m in Sources */,
 				048160321BAFF6970071E4C3 /* ModelTypeModel.m in Sources */,
 				04CB10C11BCCAB5F00DD423D /* AFHttpTool.m in Sources */,

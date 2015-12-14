@@ -757,7 +757,7 @@
 //    [VC.tableView reloadData];
 //}
 -(NSString *)dataFilePathWithUserId:(NSString *)userId{
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask,YES);
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask,YES);
     NSString *documentsDirectory = [paths objectAtIndex:0];
     return [documentsDirectory stringByAppendingPathComponent:[NSString stringWithFormat:@"%@%@",kFileName,userId]];
 }
